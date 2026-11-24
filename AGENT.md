@@ -1,0 +1,3 @@
+# AGENT.md
+
+Entry for make.fun's "Worst AI Advice" bounty: one line (111 characters) of deliberately terrible advice delivered in the confident, tidy voice of an AI assistant — delete the System32 folder to speed up your laptop. The joke lands because the advice is specific and concrete enough to follow, the assistant voice is exactly how a real helper would phrase it, and the punchline ("just old files Windows forgot to clean up") makes the badness vivid. Built with a stdlib-only Python program that writes the line as a constant to entry.txt with no trailing newline; main.py was written and then revised twice in separate edits (output-path helper, then a main() function with a __main__ guard) with byte-identical output after every revision.
